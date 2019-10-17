@@ -1,0 +1,17 @@
+principal(){
+	entero numero_dias;
+	entero numero_dias2;
+	entero edad;
+	numero_dias <- 500;
+	numero_dias <- 5 + 4  + 5;
+	mientras( edad-- ){
+		leer(numero_dias);
+		mientras( edad < 20  ){
+			leer(numero_dias);
+			imprimir("hola mundo ");
+		};
+	};
+
+  para(edad <- 20; edad < 12; edad--){
+		imprimir("hola mundo ");
+	};
